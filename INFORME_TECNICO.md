@@ -421,7 +421,7 @@ document.querySelector('.modal-backdrop')
 ### Árbol de Archivos
 ```
 Proyecto de grado/
-├── home.html                 # Página principal
+├── index.html                 # Página principal
 ├── adoptar.html              # Página de adopción
 ├── rescatista.html           # Página de rescatistas
 ├── donacion.html             # Página de donaciones
@@ -480,7 +480,7 @@ Mostrar mascotas en pantalla
     
     <!-- Contenido principal -->
     <div class="container">
-      <section id="home" class="section active">...</section>
+      <section id="index" class="section active">...</section>
       <section id="catalogo" class="section">...</section>
     </div>
     
@@ -503,7 +503,7 @@ Mostrar mascotas en pantalla
 <header>
   <nav>
     <img src="logo3.png" alt="Logo" class="logo">
-    <h1><a href="home.html">Huellitas De Amor</a></h1>
+    <h1><a href="index.html">Huellitas De Amor</a></h1>
     <ul class="nav-links">
       <li class="nav-item">
         <a href="adoptar.html">Adoptar</a>
@@ -610,7 +610,7 @@ Mostrar mascotas en pantalla
     <div class="footer-col">
       <h4>Enlaces útiles</h4>
       <ul>
-        <li><a href="home.html">Inicio</a></li>
+        <li><a href="index.html">Inicio</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -1054,16 +1054,16 @@ function showSection(sectionId) {
 .section.active { display: block; }
 
 <!-- En HTML -->
-<section id="home" class="section active">Home</section>
+<section id="index" class="section active">index</section>
 <section id="catalogo" class="section">Catálogo</section>
 
 <!-- En JS -->
-showSection('catalogo'); // Remueve .active de home, agrega a catalogo
+showSection('catalogo'); // Remueve .active de index, agrega a catalogo
 ```
 
 ### 5. Navegación por Hash
 
-**Propósito:** Permitir URLs como `home.html#catalogo`
+**Propósito:** Permitir URLs como `index.html#catalogo`
 
 ```javascript
 // Manejar hash al cargar página
@@ -1344,7 +1344,7 @@ Mostrado en pantalla:
 - ✅ Animación fadeIn
 
 ### 3. Navegación Múltiple
-- ✅ 5 páginas HTML (home, adoptar, rescatista, donación, quiénes-somos)
+- ✅ 5 páginas HTML (index, adoptar, rescatista, donación, quiénes-somos)
 - ✅ Menú principal con 4 opciones
 - ✅ Submenús con 3 opciones cada uno
 - ✅ Navegación por hash (#sección)
@@ -1385,7 +1385,7 @@ Controller (Lógica):
 ├── script.js - funciones que manipulan datos
 
 View (Presentación):
-├── home.html - estructura HTML
+├── index.html - estructura HTML
 ├── styles.css - apariencia visual
 ```
 
