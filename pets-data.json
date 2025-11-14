@@ -1,0 +1,112 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Max",
+      "type": "perros",
+      "breed": "Golden Retriever",
+      "age": "2 años",
+      "description": "Perro juguetón y cariñoso, ideal para familias.",
+      "image": "/imagnes/max.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Coco",
+      "type": "perros",
+      "breed": "Mestizo",
+      "age": "3 meses",
+      "description": "Cachorro energético con ganas de aprender.",
+      "image": "/imagnes/Coco.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Nacho",
+      "type": "perros",
+      "breed": "Labrador",
+      "age": "1 año",
+      "description": "Cariñosa y obediente, perfecta para primeros dueños.",
+      "image": "/imagnes/Nacho.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Rocky",
+      "type": "perros",
+      "breed": "Terrier",
+      "age": "4 años",
+      "description": "Pequeño pero lleno de personalidad y amor.",
+      "image": "/imagnes/Rocky.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Curly",
+      "type": "perros",
+      "breed": "Terrier",
+      "age": "4 años",
+      "description": "Pequeño pero lleno de personalidad y amor.",
+      "image": "/imagnes/Curly.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Felix",
+      "type": "perros",
+      "breed": "Terrier",
+      "age": "4 años",
+      "description": "Pequeño pero lleno de personalidad y amor.",
+      "image": "/imagnes/felix.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Mila",
+      "type": "perros",
+      "breed": "Terrier",
+      "age": "4 años",
+      "description": "Pequeño pero lleno de personalidad y amor.",
+      "image": "/imagnes/Mila.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Chispa",
+      "type": "perros",
+      "breed": "Terrier",
+      "age": "4 años",
+      "description": "Pequeño pero lleno de personalidad y amor.",
+      "image": "/imagnes/Chispa.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Bella",
+      "type": "gatos",
+      "breed": "Siamés",
+      "age": "1 año",
+      "description": "Gata elegante y cariñosa, adora estar en compañía.",
+      "image": "/imagnes/bella(gato).jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Copito",
+      "type": "gatos",
+      "breed": "Angora",
+      "age": "8 meses",
+      "description": "Gatita adorable y juguetona, perfecta para el hogar.",
+      "image": "/imagnes/copito(gato).jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Pelusa",
+      "type": "gatos",
+      "breed": "Persa",
+      "age": "2 años",
+      "description": "Gato tranquilo y mimoso, ideal para apartamentos.",
+      "image": "/imagnes/Pelusa(gato).jpeg"
+    },
+    {
+      "id": 12,
+      "name": "Tiger",
+      "type": "gatos",
+      "breed": "Atigrado",
+      "age": "3 años",
+      "description": "Gato independiente con un corazón tierno.",
+      "image": "/imagnes/SOL.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Huellitas De Amor - Solicitud de Adopción</title>
+<body>
+    <header>
+        <nav>
+            <h1><a href="home.html">Huellitas De Amor</a></h1> 
+            <ul class="nav-links">                
+                <li class="nav-item">
+                <a href="rescatista.html">Soy Rescatista</a>
+                <ul class="submenu">
+                    <li><a href="rescatista.html#rescatista-reporte">Reportar Mascota</a></li>
+                    <li><a href="rescatista.html#rescatista-formulario">Formulario Rescate</a></li>
+                    <li><a href="rescatista.html#rescatista-recursos">Recursos Útiles</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a href="adoptar.html">Adoptar</a>
+                <ul class="submenu">
+                    <li><a href="adoptar.html#catalogo">Ver Catálogo</a></li>
+                    <li><a href="adoptar.html#adoptar-requisitos">Requisitos</a></li>
+                    <li><a href="adoptar.html#adoptar-proceso">Proceso de Adopción</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a href="donacion.html">Donación</a>
+                <ul class="submenu">
+                    <li><a href="donacion.html#donacion-dinero">Donación Económica</a></li>
+                    <li><a href="donacion.html#donacion-especie">Donación en Especie</a></li>
+                    <li><a href="donacion.html#donacion-voluntario">Sé Voluntario</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a href="quienes-somos.html">Quiénes Somos</a>
+                <ul class="submenu">
+                    <li><a href="quienes-somos.html#mision-vision">Misión y Visión</a></li>
+                    <li><a href="quienes-somos.html#equipo">Nuestro Equipo</a></li>
+                    <li><a href="quienes-somos.html#contacto">Contacto</a></li>
+                </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<div class="container">
+        <section>
+            <h2>Solicitud de Adopción</h2>
+            <p style="font-size: 20px;">Da el primer paso para cambiar una vida. Completa este formulario y nos pondremos en contacto contigo.</p>
+            
+            <div class="form-container">
+                <div id="adoptarSuccess" class="success-message">¡Solicitud enviada! Te contactaremos pronto.</div>
+                <form onsubmit="submitAdopcion(event)">
+                    <div class="form-group">
+                        <label>¿Qué mascota te interesa? *</label>
+                        <select required>
+                            <option value="">Selecciona...</option>
+                            <option value="perro">Perro</option>
+                            <option value="gato">Gato</option>
+                            <option value="cualquiera">Cualquiera que necesite hogar</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Nombre Completo *</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Edad *</label>
+                        <input type="number" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Dirección *</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Teléfono *</label>
+                        <input type="tel" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email *</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Tipo de Vivienda *</label>
+                        <select required>
+                            <option value="">Selecciona...</option>
+                            <option value="casa">Casa</option>
+                            <option value="departamento">Departamento</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>¿Tienes otras mascotas? *</label>
+                        <select required>
+                            <option value="">Selecciona...</option>
+                            <option value="si">Sí</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>¿Por qué quieres adoptar? *</label>
+                        <textarea rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>¿Tienes experiencia con mascotas? *</label>
+                        <textarea rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Solicitud</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Subsecciones: Adoptar -->
+        <section id="catalogo" class="section">
+            <h2>Nuestro Catálogo de Mascotas</h2>
+            <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem;">Conoce a las mascotas disponibles para adoptar</p>
+            <p style="text-align: center; margin-bottom: 2rem;"><a href="home.html#catalogo" class="btn">Ver catálogo completo →</a></p>
+        </section>
+
+        <section id="adoptar-requisitos" class="section">
+            <h2>Requisitos para Adoptar</h2>
+            <p>Conoce los requisitos necesarios para poder adoptar una mascota con nosotros.</p>
+            <div style="max-width:600px; margin: 2rem auto;">
+                <ul style="font-size: 1.1rem; line-height: 2;">
+                    <li>✓ Ser mayor de 18 años</li>
+                    <li>✓ Contar con identificación válida</li>
+                    <li>✓ Tener vivienda propia o permiso del propietario</li>
+                    <li>✓ Estar dispuesto a cuidar la mascota de por vida</li>
+                    <li>✓ Realizar seguimiento post-adopción</li>
+                    <li>✓ Comprometerse con vacunación y desparasitación</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="adoptar-proceso" class="section">
+            <h2>Proceso de Adopción</h2>
+            <p style="font-size: 20px;">Te explicamos paso a paso cómo es el proceso de adopción.</p>
+            <div class="donation-methods">
+                <div class="donation-card">
+                    <h3>1️⃣ Selecciona tu mascota</h3>
+                    <p>Navega por nuestro catálogo y elige la mascota que más te guste.</p>
+                </div>
+                <div class="donation-card">
+                    <h3>2️⃣ Entrevista y evaluación</h3>
+                    <p>Nos reuniremos contigo para evaluar compatibilidad y responder preguntas.</p>
+                </div>
+                <div class="donation-card">
+                    <h3>3️⃣ Firma de documentos</h3>
+                    <p>Completamos los documentos de adopción y transferencia.</p>
+                </div>
+                <div class="donation-card">
+                    <h3>4️⃣ ¡Llevas a tu mascota!</h3>
+                    <p>Recibe a tu nuevo compañero en casa. ¡Felicidades!</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+    <footer class="site-footer">
+            <div class="footer-inner container">
+                <div class="footer-col">
+                    <h4>Huellitas De Amor</h4>
+                    <p style="font-size: 19px;">Conectando corazones con mascotas que buscan un hogar. Gracias por apoyar nuestra causa.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces útiles</h4>
+                    <ul>
+                        <li><a href="home.html">Inicio</a></li>
+                        <li><a href="adoptar.html">Adoptar</a></li>
+                        <li><a href="donacion.html">Donación</a></li>
+                        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Síguenos</h4>
+                    <div class="social">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">© 2025 Huellitas De Amor • Todos los derechos reservados</div>
+        </footer>
+
+</body>
+</html>
